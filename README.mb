@@ -1,0 +1,22 @@
+
+-------------HTML---------------
+No HTML usei apenas tags basicas, section e form para criar a tela de Login, nada muito além do Básico.
+
+-------------CSS---------------
+
+Para fazer o efeito de animação no background, utilizei o linear-gradient para mistura as cores no background 
+e dar a angulação. Já para a animação utilizei o @keyframes separando em 3 estagios:
+O primeiro de 0% com um background-position de 0% a 50%.
+o Segundo de 50% com um background-position de 100% a 50%.
+E o terceiro de 100% com um background-position de 0% a 50%.
+
+Após definir o ativei com o animation dentro da tag body, puxei meu keyframe  estabeleci o intervalo, velocidade e loop.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+-------------JS--------------- 
+
+Usei um codigo simples em JS de autenticação, com os valores corretos ja estabelecidos no proprio codigo 
+sem nada de mySql somente para foram demonstrativa e para estudo proprio 
+
+---------------------------------------------------------------------------------------------------------------------------

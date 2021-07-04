@@ -1,0 +1,97 @@
+
+
+hmtl, body{ 
+
+    margin:0;
+    padding: 0;
+}
+body {
+
+    font-size: 62.5%;
+
+    background: linear-gradient(45deg,#907FA4,#A58FAA,#A6D6D6,#EDEDD0);
+    background-size: 300% 300%;
+    animation: backColors 12s ease infinite;
+}
+
+@keyframes backColors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.conteiner-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.boxLogin{
+    border: 1px solid black;
+    padding: 25px 25px 40px 25px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 10px 5px 5px black;
+    background-color: snow;
+
+}
+.txtTitle{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:3em;
+}
+.txtSubTitle{
+    margin-top: -20px;
+    font-size:1.2em;
+}
+.form > input {
+    display: block;
+    margin: 15px 0 8px 0;
+    width: 230px;
+    height: 28px;
+}
+button{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.7em;
+    margin: 30px 0 0 0 ;
+}
+    .cadastrar{
+        background-color:#7265c2;
+        width: 95px;
+        height: 35px;
+        border-radius: 10px;
+        border:transparent;
+        cursor: pointer;
+        color: white;
+    }
+    .logar{
+        background-color: transparent;
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        border:transparent;
+        cursor: pointer;
+        margin-left: 65px;
+    }
+    .logar:hover{
+        border: 1px solid yellowgreen;
+    }
+
+.erroLog{
+    color:red;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 17px 0 0 0;
+}
+
+.logoFooter {
+   width: 250px;
+   height: 90px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title> Login </title>
+</head>
+<body>
+    
+    <section class="conteiner-login">
+        <div class="boxLogin">
+            <div class="boxTitle">
+                <h1 class="txtTitle"> Login </h1>
+                <h5 class="txtSubTitle">Realize seu login</h5>
+            </div>
+            <form action="" method="post" class="form">
+                <input type="text" name="Login" class="txtLogin" id="Login" placeholder="Login....">
+                <input type="password" name="Senha" class="txtSenha" id="Senha" placeholder="Pass....">
+            </form>
+            <button class="cadastrar">CADASTRE-SE</button>
+            <button class="logar" onclick="verifique()"> ENTRAR </button>
+            <p class="erroLog" id="erroLog"></p>
+        </div>
+    </section>
+
+    <footer>
+        <img src="/img/img footer.png" alt="Logo" class="logoFooter">
+    </footer>
+
+    <script src="/autenticacao.js"></script>
+</body>
+</html>
